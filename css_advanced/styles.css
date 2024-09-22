@@ -9,4 +9,204 @@ header {
   width: 100%;
   background-image: url('bckground.png');
   height: auto;
+  height: fit-content;
+}
+
+nav {
+width: 100%;
+position: sticky;
+text-align: right;
+}
+
+.logo {
+  width: 150px; 
+  margin-bottom: 0%;
+  margin-left: 40px;
+}
+
+.na-v {
+display: flex;
+text-align: right;
+}
+
+.na-v,ul,li {
+  list-style: none;
+  margin: 0px;
+  justify-content: space-between;
+}
+
+.na-v,ul,a {
+  color:aqua;
+  text-decoration: none;
+  padding: 2px;
+  margin-top: 0%;
+  margin-bottom: 70px;
+}
+
+.matrix {
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  color: rgb(59, 255, 255);
+  font-size: 40px;
+  margin-bottom:30px ;
+}
+
+.stinking-rich {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-1 {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.no1{
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 50pxpx;
+  text-decoration: white;
+  color: rgb(0, 247, 255);
+  background-color:transparent;
+  width: 80px;
+  border:outset;
+  border-color: aqua;
+  border-width: 5px;
+}
+
+.prof {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.profchild {
+  justify-content: center;
+  margin: 30px;
+  text-align: center;
+}
+.prof,.profchild.specialisation {
+  color: aqua;
+  margin-left: 30px;
+}
+
+.pip {
+  width: 90px;
+  border-radius: 50px;
+  border: double;
+}
+
+.center {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.bestcourse {
+  display: flex;
+  background-image: linear-gradient(to right,#1dedfc,#000000,#13e7f7);
+}
+
+.something {
+  text-align: center;
+  margin-top: 20px;
+  white-space: 20px;
+}
+
+.something,p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.photo {
+  margin-top: 10px  
+}
+
+.popularcourses {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 50pxpx;
+  text-decoration: white;
+  color: rgb(0, 247, 255);
+  background-color:transparent;
+  width: 80px;
+  border:outset;
+  border-color: aqua;
+  border-width: 5px; 
+}
+
+.nme {
+  width: 40px;
+  border-radius: 20px;
+}
+
+.mme {
+  width: 70px;
+}
+
+
+.popular-tutorials h2 {
+  color: #a3a3ff;
+}
+.tutorials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tutorial {
+  margin: 20px;
+  text-align: center;
+  width: 200px;
+}
+.tutorial img {
+  width: 100%;
+  border-radius: 10px;
+}
+.tutorial p {
+  margin: 10px 0 0;
+}
+.free-membership {
+  background-color: #0a0a23;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.free-membership h2 {
+  color: #a3a3ff;
+}
+.free-membership .benefit {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+.free-membership .benefit i {
+  font-size: 2em;
+  color: #a3a3ff;
+}
+.faq {
+  text-align: center;
+  padding: 50px 20px;
+}
+.faq h2 {
+  color: #a3a3ff;
+}
+.faq .question {
+  margin: 20px 0;
+}
+.footer {
+  background-color: #0a0a23;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.footer .social-icons i {
+  margin: 0 10px;
+  color: white;
 }
