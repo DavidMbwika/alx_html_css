@@ -266,3 +266,7 @@ text-align: right;
   width: 40px;
   margin: 6px;
 }
+
+.smil {
+  display: flex;
+}
