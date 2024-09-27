@@ -110,6 +110,7 @@ text-align: right;
   font-style: italic;
   margin-top: 5px;
 }
+ 
 
 .bestcourse {
   display: flex;
@@ -131,7 +132,7 @@ text-align: right;
 }
 
 .photo {
-  margin-top: 10px  
+  margin-top: 10px;
 }
 
 .best-tutors {
