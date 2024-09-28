@@ -29,6 +29,10 @@ header {
     padding-right: 30px;
 }
 
+.nav2 nav ul li a:hover {
+    color: #FF6565;
+}
+
 .logo2 {
     display: flex;
     align-items: flex-start;
