@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font:url('/fonts/SourceSansPro-Light.otf');
+    font-family: url('/fonts/SourceSansPro-Light.otf') ;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: url('headphones_hero_1.jpg');
+}
+
+.nav2 {
+    padding-bottom: 130px;
+    margin-bottom: 100px;
+}
+
+.nav {
+    display: inline-block;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.logo2 {
+    display: flex;
+    align-items: flex-start;
+    padding-left:20px;
+    padding-top: 20px;
+}
+
+nav,li,a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 5px;
+    margin-top: 0%;
+    padding-top: 0%;
+    text-decoration: solid;
+    padding-right: 20px;
+    list-style: none;
+    font-size: 17px;
+    
+}
+
+nav li a ::hover {
+    color: rgb(255, 71, 102);
+}
+
+.call-to-action {
+    color: #f2f2f2;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cto {
+    text-align: center;
+}
+
+.ct {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button {
+width: 100px;
+border-radius: 30px;
+background-color: #FF6565;
+color: #f2f2f2;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+border: rgb(255, 71, 102);
+height: 23px;
+font-size: 16px;
+}
+
+.other-info {
+    margin-bottom: 90px;
+}
