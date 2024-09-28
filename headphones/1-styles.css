@@ -87,3 +87,61 @@ font-size: 16px;
 .other-info {
     margin-bottom: 90px;
 }
+
+.what-we-do {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.children {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: whitesmoke;
+
+}
+
+.children img {
+    width: 200px;
+    align-self: center;
+    padding: 1px;
+}
+
+.children p {
+    color: black; 
+    font-size: 15px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    background: url('headphones_hero_2.jpg');
+    padding: 30px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 150px;/*set width*/
+    height:150px;/*set height*/
+}
+
+.text-container {
+    position: absolute;
+    top:50%;/*center verticaly*/
+    left: 50%;/*center horixontaly*/
+    transform: translate(-60%, -50%);/*adjust positioning*/
+    color: #ffffff;
+    font-size: 15px;/*font sixe*/
+    text-align: center;
+
+}
